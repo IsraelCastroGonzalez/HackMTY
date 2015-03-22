@@ -96,3 +96,21 @@
 #title{
 	font-size: 22px;
 }
+
+#espacioArriba{
+  margin-top: 250px;
+}
+
+#centrado{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#espacioEntre{
+  margin-bottom: 20px;
+}
+
+#flechita{
+  float: right;
+  padding-right: 15px;
+  padding-top: 31px;
+}
