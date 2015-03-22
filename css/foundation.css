@@ -4638,10 +4638,10 @@ dialog {
     clear: both; }
 
 .tab-bar {
-  -webkit-backface-visibility: hidden;
+  /*-webkit-backface-visibility: hidden;*/
   background: #E76666;
   color: #FFFFFF;
-  height: 2.8125rem;
+  height: 3.5rem;
   line-height: 2.8125rem;
   position: relative; }
   .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
@@ -4661,11 +4661,11 @@ dialog {
   left: 0; }
 
 .right-small {
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 3.5rem;
+  height: 3.5rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #1a1a1a;
+  /*border-left: solid 1px #1a1a1a;*/
   right: 0; }
 
 .tab-bar-section {
@@ -4692,7 +4692,7 @@ dialog {
 .tab-bar .menu-icon {
   text-indent: 2.1875rem;
   width: 2.8125rem;
-  height: 2.8125rem;
+  height: 3.5rem;
   display: block;
   padding: 0;
   color: #ea7777;
@@ -6159,10 +6159,10 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
     .tab-bar2 {
-  -webkit-backface-visibility: hidden;
+  /*-webkit-backface-visibility: hidden;*/
   background: #B6E9F0;
   color: #FFFFFF;
-  height: 2.8125rem;
+  height: 3.5rem;
   line-height: 2.8125rem;
   position: relative; }
   .tab-bar2 h1, .tab-bar2 h2, .tab-bar2 h3, .tab-bar2 h4, .tab-bar2 h5, .tab-bar2 h6 {
@@ -6174,7 +6174,7 @@ th.hide-for-touch {
     font-size: 1.125rem; }
 
     .tab-bar3 {
-  -webkit-backface-visibility: hidden;
+  /*-webkit-backface-visibility: hidden;*/
   background: #B6E9F0;
   color: #FFFFFF;
   height: 2.8125rem;
@@ -6274,3 +6274,67 @@ th.hide-for-touch {
   .tab-bar3 .menu-icon span:hover:after {
     box-shadow: 0 0 0 1px #b3b3b3, 0 7px 0 1px #b3b3b3, 0 14px 0 1px #b3b3b3; }
 
+  .tab-bar4 {
+  /*-webkit-backface-visibility: hidden;*/
+  background: #F4F2F2;
+  border: 2px;
+  border-color: #F4F2F2; 
+  color: #E76666;
+  font-size: 25px;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+  position: relative; }
+  .tab-bar4 h1, .tab-bar4 h2, .tab-bar4 h3, .tab-bar4 h4, .tab-bar4 h5, .tab-bar4 h6 {
+    color: #E76666;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 2.8125rem;
+    margin: 0; }
+  .tab-bar4 h1, .tab-bar4 h2, .tab-bar4 h3, .tab-bar4 h4 {
+    font-size: 1.125rem; }
+  
+  .tab-bar4-section {
+  padding: 0 0.625rem;
+  position: absolute;
+  text-align: center;
+  height: 3rem;
+  top: 0; }
+  @media only screen and (min-width: 40.063em) {
+    .tab-bar4-section.left {
+      text-align: left; }
+    .tab-bar4-section.right {
+      text-align: right; } }
+  .tab-bar4-section.left {
+    left: 0;
+    right: 2.8125rem; }
+  .tab-bar4-section.right {
+    left: 2.8125rem;
+    right: 0; }
+  .tab-bar4-section.middle {
+    left: 2.8125rem;
+    right: 2.8125rem; }
+
+  .tab-bar4 .menu-icon {
+  text-indent: 2.1875rem;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  display: block;
+  padding: 0;
+  color: #FFFFFF;
+  position: relative;
+  transform: translate3d(0, 0, 0); }
+  .tab-bar4 .menu-icon span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0;
+    top: 50%;
+    margin-top: -0.5rem;
+    left: 0.90625rem;
+    box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+    width: 1rem; }
+  .tab-bar4 .menu-icon span:hover:after {
+    box-shadow: 0 0 0 1px #b3b3b3, 0 7px 0 1px #b3b3b3, 0 14px 0 1px #b3b3b3; }
+  #espaciochiquito{
+  margin-top: 45px;
+}

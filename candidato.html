@@ -11,7 +11,51 @@
       
       <style type="text/css">body{font-family:'Raleway',Helvetica,Arial,sans-serif;font-weight:400;background-color:rgba(0,0,0,0.02);}.button{font-family:'Raleway',Helvetica,Arial,sans-serif;}.button-group li{padding-top:3%;}.button-group a{color:rgba(0,0,0,1);background-color:transparent;}.button-group a:hover{color:rgba(0,0,0,0.4);background-color:transparent;}.button-group{float:none;}@media only screen and (min-width: 40.063em) {.button-group{float:right;}}.namelogo{padding:20px 10px 0px 10px;}@media only screen and (min-width: 40.063em) {.namelogo{padding-bottom:20px;}}.namelogo h1{font-size:1.5em;font-weight:600;text-align:center;}@media only screen and (min-width: 40.063em) {.namelogo h1{font-size:16px;text-align:left;}}@media only screen and (min-width: 64.063em) {.namelogo h1{font-size:24px;text-align:left;}}.hero{background:url(http://vignette1.wikia.nocookie.net/batman/images/5/5c/Gotham1989mattPainting.jpg/revision/latest?cb=20120103073630);background-size:cover;box-shadow:inset 0px 0px 0 2000px rgba(231,102,102,0.15);height:60%;}.intro-text{padding-top:30%;color:rgba(255,255,255,1);text-align:center;}@media only screen and (min-width: 40.063em) {.intro-text{padding-top:%;}}@media only screen and (min-width: 64.063em) {.intro-text{padding-top:18%;}}.intro-text p{font-family:;font-size:44px;}.about,.work,.contact{padding:50px 0 0 0;}.about img{width:250px;height:250px;border-radius:150px;-webkit-border-radius:150px;-moz-border-radius:150px;}.work img:hover{opacity:0.5;-webkit-transition:0.3s ease;-moz-transition:0.3s ease;-ms-transition:0.3s ease;-o-transition:0.3s ease;transition:0.3s ease;}.work li{height:140px;overflow:hidden;}hr{border:0;height:1px;background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));opacity:0.8;}footer{padding:80px 0 10px 0;}footer a:hover{color:rgba(0,0,0,0.4);background-color:transparent;}</style> 
         
-      <div class="hero">
+      <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <div class="fixed">
+          <nav class="tab-bar">
+            <section class="left-small">
+              <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+            </section>
+            <section class="middle tab-bar-section">
+             
+            </section>
+            <section class="right-small">
+               <img src="Logo-SmartVote.png" width="75" height="75"/>
+            </section>
+          </nav>
+        </div>  
+        <aside class="left-off-canvas-menu">
+
+            <!-- whatever you want goes here -->
+
+            <ul class="accordion" data-accordion>
+              <li class="accordion-navigation">
+                <a href="#panel1a">Código Postal</a>
+                <div id="panel1a" class="content">
+                  <p><a class="left-off-canvas-toggle"href="#">Cambiar</a></p>
+                  <p><a class="left-off-canvas-toggle"href="#">Agregar</a></p>
+                </div>
+              </li>
+              <li class="accordion-navigation">
+                <a href="#panel2a">Puesto Gobernante</a>
+                <div id="panel2a" class="content">
+                 <div class="left-off-canvas-toggle">
+                  <p><a href="#">Gobernador</a></p>
+                  <p><a href="#">Presidente Municipal</a></p>
+                  <p><a href="#">Diputado de Distrito</a></p>
+                </div>
+                </div>
+              </li>
+              <li class="accordion-navigation">
+                <a class="left-off-canvas-toggle" href="#panel3a">Comparar Candidatos</a>
+              </li>
+            </ul>
+        </aside>
+        <section class="main-section">
+          <p id="espaciochiquito"> </p>
+      <div id="espacioArriba" class="hero">
         <div class="row">
 
           <div class="large-12 columns intro-text">
@@ -29,33 +73,32 @@
         <li class="tab-title"><a href="#panel3">Partido</a></li>
       </ul>
 
-      <div class="tabs-content">
-        <div class="content active" id="panel1">
-          <div class="small-12 columns">
-          <h5> N O M B R E</h5>
-          <h4>Edgar Alfredo Briceño González</h4>
+        <div class="tabs-content">
+          <div class="content active" id="panel1">
+            <div class="small-12 columns">
+            <h5> N O M B R E</h5>
+            <h4>Edgar Alfredo Briceño González</h4>
 
-          <h5> E D A D</h5>
-          <h4>23 años</h4>
+            <h5> E D A D</h5>
+            <h4>23 años</h4>
 
-          <h5> E S T U D I O S </h5>
-          <h4> Lic. en Negocios Internacionales </h4>
-          
+            <h5> E S T U D I O S </h5>
+            <h4> Lic. en Negocios Internacionales </h4>
+            
+          </div>
+          </div>
+          <div class="content" id="panel2">
+            <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+          </div>
+          <div class="content" id="panel3">
+            <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+          </div>
         </div>
-        </div>
-        <div class="content" id="panel2">
-          <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
-        </div>
-        <div class="content" id="panel3">
-          <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
-        </div>
+        </section>
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
       </div>
-
-
-
-
-      
-      
+      </div>
        
     <script src="js/foundation/foundation.clearing.js"></script>
     <script src="js/vendor/jquery.js"></script>
