@@ -113,6 +113,10 @@
   margin-bottom: 20px;
 }
 
+.unavaible{
+	color:gray;
+}
+
 #flechita{
   float: right;
   padding-right: 15px;
