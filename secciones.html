@@ -1,0 +1,116 @@
+<html>
+<head>
+    <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css'>
+	  <link type="text/css" rel="stylesheet" href="SmartVote.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UpVote!</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="shortcut icon" href="Logo-SmartVote.png" type="image/png">
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <div class="fixed">
+          <nav class="tab-bar">
+            <section class="left-small">
+              <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+            </section>
+            <section class="middle tab-bar-section">
+             
+            </section>
+            <section class="right-small">
+               <img src="Logo-SmartVote.png" width="75" height="75"/>
+            </section>
+          </nav>
+          <nav class="tab-bar2">
+            <section class="middle tab-bar-section">
+              <h1 id="title">Escoge tu sección</h1>
+            </section>
+          </nav>
+          <nav class="tab-bar3">
+            <section class="middle tab-bar-section">
+              <h4 id="subtitle">Ciudad, Estado</h4>
+            </section>
+          </nav>
+          <nav class="tab-bar4">
+            <section class="middle tab-bar-section">
+              <h3 id="cargo">Categorias</h3>
+            </section>
+          </nav>
+        </div>
+        <!-- Off Canvas Menu -->
+
+        <aside class="left-off-canvas-menu">
+
+            <!-- whatever you want goes here -->
+
+            <ul class="accordion" data-accordion>
+              <li class="accordion-navigation">
+                <a href="#panel1a">Código Postal</a>
+                <div id="panel1a" class="content">
+                  <p><a class="left-off-canvas-toggle"href="#">Cambiar</a></p>
+                  <p><a class="left-off-canvas-toggle"href="#">Agregar</a></p>
+                </div>
+              </li>
+              <li class="accordion-navigation">
+                <a href="#panel2a">Puesto Gobernante</a>
+                <div id="panel2a" class="content">
+                  <div class="left-off-canvas-toggle">
+                  <p><a href="#">Gobernador</a></p>
+                  <p><a href="index.html" >Presidente Municipal</a></p>
+                  <p><a href="#">Diputado de Distrito</a></p>
+                </div>
+                </div>
+              </li>
+              <li class="accordion-navigation">
+                <a class="left-off-canvas-toggle" href="#panel3a">Comparar Candidatos</a>
+              </li>
+            </ul>
+        </aside>
+        <!-- main content goes here -->
+        <section class="main-section">
+        <p id="espacioArriba"> </p>
+        <div class="row">
+          <div class="larges-12 columns">
+              <div class="large-6 columns">
+              <a href="#"><img src="a1.png" width="400" height="200"/></a>
+              </div>
+              <div class="large-6 columns">
+              <a href="#"><img src="a2.png" width="400" height="200"/></a>
+                  <p id="espacioEntre"></p>
+              </div>
+            
+              <div class="large-6 columns">
+              <a href="#"><img src="a3.png" width="400" height="200"/></a>
+              </div>
+              <div class="large-6 columns">
+              <a href="#"><img src="a4.png" width="400" height="200"/></a>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 columns">
+            <p id="espacioEntre">
+            </p>  
+          </div>
+        </div>
+        
+     </section>
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+      
+    </div>
+  </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="SmartVote.js"></script>
+</body>
+</html>
